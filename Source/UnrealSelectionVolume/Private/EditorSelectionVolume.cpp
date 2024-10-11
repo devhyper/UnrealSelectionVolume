@@ -28,7 +28,6 @@ void AEditorSelectionVolume::Select()
 
 	GetAllActorsInVolume(ActorsToSelect);
 
-	for (AActor* Actor : ActorsToSelect) {
-		GEditor->SelectActor(Actor, true, true);
-	}
+	UEditorActorSubsystem* EditorActorSubsystem = GEditor->GetEditorSubsystem<UEditorActorSubsystem>();
+	EditorActorSubsystem->SetSelectedLevelActors(ActorsToSelect);
 }
