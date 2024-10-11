@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UnrealSelectionVolume",
+	"Description": "Adds a volume allowing selection of actors.",
+	"Category": "Editor",
+	"CreatedBy": "devhyper",
+	"CreatedByURL": "https://github.com/devhyper",
+	"DocsURL": "https://github.com/devhyper/UnrealSelectionVolume",
+	"SupportURL": "https://github.com/devhyper/UnrealSelectionVolume/issues",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UnrealSelectionVolume",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
